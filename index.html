@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://img.icons8.com/plasticine/16/000000/restaurant.png" type="image/x-icon">
+    <title>Restaurant Order and Billing</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Restaurant</h1>
+    </header>
+    <main>
+        <div class="container order">
+            <ul class="order__items">
+                <div class="order__item" id="pizza">
+                    <li class="order__item-name">Hawaiian Pizza</li>
+                    <span class="order__item-price">Price - $15</span>
+                    <input type="number" class="order__item-quantity" placeholder="Qty" min="0">
+                </div>
+                <div class="order__item" id="burger">
+                    <li class="order__item-name">Burger</li>
+                    <span class="order__item-price">Price - $10</span>
+                    <input type="number" class="order__item-quantity" placeholder="Qty" min="0">
+                </div>
+                <div class="order__item" id="garlic-bread">
+                    <li class="order__item-name">Garlic Bread</li>
+                    <span class="order__item-price">Price - $4</span>
+                    <input type="number" class="order__item-quantity" placeholder="Qty" min="0">
+                </div>
+            </ul>
+        </div>
+        <div class="billing">
+            <button type="submit" class="bill-out">Bill out</button>
+        </div>
+    </main>
+    <script type="module"src="script.js"></script>
+</body>
+</html>

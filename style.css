@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+}
+
+body {
+    background-image: linear-gradient(to right bottom, #999, #000);
+    height: 100vh;
+}
+
+header {
+    text-align: center;
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order__items {
+    min-width: 40%;
+    list-style: none;
+}
+
+.order__item {
+    background-color: #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order__item-name {
+    padding: 1%;
+    float: 1;
+}
+
+.order__item li {
+    flex: 1;
+}
+
+.order__item-quantity {
+    margin-left: .25rem;
+    padding: 0.25rem;
+    text-align: center;
+    background-color: #ccc;
+    margin: 2%;
+    width: 3rem;
+}
+
+.billing {
+    margin-top: 10%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.bill-out {
+    border: transparent;
+    border-radius: 10%;
+    padding: 1rem;
+}
